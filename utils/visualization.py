@@ -23,7 +23,7 @@ class Annotator(QWidget):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = Annotator(r"..\data\images\1.jpg")
+    window = Annotator(r"..\data\images\road.png")
     # window.show()
     window.showWindow()
     sys.exit(app.exec_())
